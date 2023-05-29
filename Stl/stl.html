@@ -2,7 +2,7 @@
 <html lang = "en">
 <head>
 <meta charset="utf-8">
-<title>Mark Warren's Portfolio</title>
+<title>Design</title>
 <link rel="stylesheet" href="../Assets/css/style.css" >
 <body>
 	<div id="clipper">
@@ -35,28 +35,102 @@
 	<br>
 	<section>
 	<div id="Content">
-	<h1> STL Viewer </h1>
+	<h1>Design Development </h1>
 	<br>
-	<p> We made use of the STL Viewer during our project to demonstrate to one another remotely the projects we were working on over Github.  </p>
+	<p> After we had a plan of action, we began to develop the desgins for the head.
 	<br>
-	<p> The advantage of the STL Viewer was that you could remotely control the view of the object, pan and zoom various parts of the object in question thanks to the convenience of the Github viewer. </p>
-<br>
-<p>The disadvantage of the STL Viewer is you cannot make on the fly changes to the model – which in some aspects is a good thing, but when changes have to be made team members would have to communicate what changes could be made before editing the file within a STL editor such as Blender or Fusion 360. Another disadvantage is you are rather limited to the dimensions that the website provides you – to view the model in it’s entirely would require modelling software such as Blender. Colours are also not included as you would only be examining the Surface Model not the textures of the model.</p>
-<br>
-<p>Unfortunately in its current state you can only view the files stored on the Github depository itself, originally a script would embed this view but as of now a fix has not been provided.</p>
-<br>
-<p>Clicking on the below images will take you to view the STL file of these models as examples – the rendered images are exported via Blender – see the blender Section for more information.</p> 
-<br>
-<a href="https://github.com/MWarrenAI/MWarrenAI.github.io/blob/main/Assets/images/Gear%20v2.stl"><img class="img" src ="../Assets/images/photos/Fig8.jpg" alt = "Figure 8: A rendered gear made using Blender (Rendered by Mark Warren)"/></a>
+	<h2>STL Viewer </h2>
 	<br>
-<p>Figure 8 A rendered gear made using Blender (Rendered by Mark Warren)</p>
-<br>
-<a href="https://github.com/MWarrenAI/MWarrenAI.github.io/blob/main/Assets/images/head.stl"><img class="img" src ="../Assets/images/photos/Fig10.png" alt = "Figure 9: A STL Model for a Head Concept (Screenshot taken by Mark Warren)"/></a>
+	<p>We made use of the STL Viewer during our project to demonstrate to one another remotely the projects we were working on over Github.  </p>
 	<br>
-<p>Figure 9 A STL Model for a Head Concept (Screenshot taken by Mark Warren)</p>
-<br>
+	<p>The advantage of the STL Viewer was that you could remotely control the view of the object, pan and zoom various parts of the object in question thanks to the convenience of the Github viewer. </p>
+	<br>
+	<p>The disadvantage of the STL Viewer is you cannot make on the fly changes to the model – which in some aspects is a good thing, but when changes have to be made team members would have to communicate what changes could be made before editing the file within a STL editor such as Blender or Fusion 360. Another disadvantage is you are rather limited to the dimensions that the website provides you – to view the model in it’s entirely would require modelling software such as Blender. Colours are also not included as you would only be examining the Surface Model not the textures of the model.</p>
+	<br>
+	<img class="img" src ="../Assets/images/photos/Fig8.jpg" alt = "Figure 8: A rendered gear made using Blender (Rendered by Mark Warren)"/>
+	<p>Figure 8 A rendered gear made using Blender (Rendered by Mark Warren)</p>	
+	<br>
+	<script id="embedded-stl-view" src="https://embed.github.com/view/3d/MWarrenAI/MWarrenAI.github.io/main/Assets/images/Gear%20v2.stl"></script>
+	<br>
+	<script id="embedded-stl-view" src="https://embed.github.com/view/3d/MWarrenAI/MWarrenAI.github.io/main/Assets/images/head.stl"></script>
+	<br>
+	<p>Figure 9 A STL Model for a Head Concept (Screenshot taken by Mark Warren)</p>
+	<br>
+	<h2>3D Scanning</h1>
+	<p> The 3D scanners originally used produced models of a subject that was sitting down/standing up. This required the subject to remain stationary while the scanning took place. </p>
+	<br>
+	<h2>Handyscan 3D Scanner</h2>
+	<br>
+	<p>The scanner generates high resolution mesh models which can move during measurements to produce a high-quality scan. With an accuracy of around 0.012-0.025mm (Creaform, 2023). </p>
+	<p>An example of industrial use would be for recording physical attributes of aircraft models for Boeing commercial airplanes (Quality Magazine, 2019). </p>
+	</p>
+	<br>
+	<a><img class="img" src ="../Assets/images/photos/Fig24.jpg" alt = "Figure 24: Hat used to render model using Handyscan 3D Scanner (photograph taken by Mark Warren)"/></a>
+	<br>
+	<p>Figure 24 Hat used to render model using Handyscan 3D Scanner (photograph taken by Mark Warren)</p>
+	<br>
+	<a><img class="img" src ="../Assets/images/photos/Fig25.png" alt = "Figure 25: Subject with Scanner Markers placed upon him (photograph taken by Michael Alcock)"/></a>
+	<br>
+	<p>Figure 25 Subject with Scanner Markers placed upon him (photograph taken by Michael Alcock)</p>
+	<br>
+	<p>We found that the scan while accurate required the use of these 3D Scanner markers. They are small circular discs that are spaced around the object so that the scanner has a reference point in order to recognise an object surface. This would require a minimum of 3 markers with 5 being for the most optimum object surface for 70*100cm space (Thor3D, 2016). While accurate the model could not correctly render the facial hair of the subject, this also meant some facial features were missed due to the limitation of the markers. This made the result not as good as we desired as we would need to spend far longer creating the mesh of the face in order to produce a usable model. Also, the lack of colour of the scan meant we would still need to colour this ourselves. Thus we did not make use of the model produced. The handyscan fired lasers in order to get the geometry of a subject.</p> 
+	<br>
+	<h2>Artec Eva 3D Scanner</h2>
+	<br>
+	<p>Portable scanner which makes use of structured light scanning technology. This uses geometry and texture tracking for full colour scanning and data alignment (Central Scanning, 2020). </p> 
+	<br>
+	<a><img class="img" src ="../Assets/images/photos/Fig26.jpg" alt = "Figure 26: Artec Eva 3D Scanner (photograph taken by Mark Warren)"/></a>
+	<br>
+	<p>Figure 26 Artec Eva 3D Scanner (photograph taken by Mark Warren)</p>
+	<br>
+	<p>Another alternative we used for the 3D Scanner was the Artec 3D Eva Scanner. This was a similar set up as before: instead of standing however we had the subject sitting and the scanner would flash the subject with lights and capture the reflection in order to obtain colour. There wasn’t a difference in the quality of standing/sitting but made the process faster than sticking markers on the subject’s head. We found the model to be of a satisfactory quality – while not as accurate we found that we had the model did not miss any facial features. These features were then simply smoothed out and holes were cut out from the eye sockets using Blender’s Boolean tool. After smoothing out the hair, we were left with a base that could be printed out using a 3D printer.</p> 
+	<br>
+	<p>An Industrial example of the Scanner would be perioperative volumetric assessment of a knee Latz et al, 2022). </p> 
+	<br>
+	<a><img class="img" src ="../Assets/images/photos/Fig27.jpg" alt = "Figure 27: Scanned Subject rendering in Adobe Suite Software (photograph taken by Mark Warren)"/></a>
+	<br>
+	<p>Figure 27 Scanned Subject rendering in Adobe Suite Software (photograph taken by Mark Warren)</p>
+	<br>
+	<a><img class="img" src ="../Assets/images/photos/Fig28.jpg" alt = "Figure 28: Subject being scanned using Artec Scanner from front (photograph taken by Mark Warren)"/></a>
+	<br>
+	<p>Figure 28 Subject being scanned using Artec Scanner from front (photograph taken by Mark Warren)</p>
+	<br>
+	<a><img class="img" src ="../Assets/images/photos/Fig29.jpg" alt = "Figure 29: Subject being scanned Artec Scanner from back (photograph taken by Mark Warren)"/></a>
+	<br>
+	<p>Figure 29 Subject being scanned Artec Scanner from back (photograph taken by Mark Warren)</p>
+	<br>
+	<p>After which, the scanned were modified through use of Blender. </p>
+	<br>
+	<h2>Blender</h2>
+	<br>
+	<a><img class="img" src ="../Assets/images/photos/Fig9.png" alt = "Figure 10: A set of rendered objects made using Blender (Rendered by Mark Warren)" href = "https://github.com/MWarrenAI/MWarrenAI.github.io/blob/main/Assets/images/Gear%20v2.stl"/></a>
+	<br>
+	<p>Figure 10 A set of rendered objects made using Blender (Rendered by Mark Warren)</p>
+	<br>
+	<p>Blender allows for the crafting and modelling of various objects that can be used for things such as animation, game characters or moulding clay to be printed out later on. We made use of this to demonstrate the concept of our Head model and modifying models that would otherwise be too simple in Fusion 360. We found that this software was not really useful for scaling the model but more for the purposes of detailing model characteristics rather than exact measurements for printing the head via a 3D printer this would allow us to “mould” our base to better suit our model. </p>
+	<br>
+	<p>The disadvantage would be that due to how complicated the model is you’d have to simplify the model so that you don’t end up with too much geometry to print out. This requires a lot of time as opposed to Fusion 360 and following a lot of tutorials to get the exact result you want out of the model. For these reasons I’d only recommend this tool for use of editing models that needs detail to be manipulated rather than just “scaled”. I found that you could scale a model down but only by using the desired multiplication of the scale you desire such as 50% or .5 after you select an object press s and type the desired value. A much more accurate way of scaling I’d recommend Fusion 360 for as I found the software to be rather complicated to use in comparison.</p>
+	<br>
+	<p>You can render objects made in blender to provide image files such as the ones below – this can be useful for visual concepts. You can click on these images to show the full view of these rendered images. Camera and lighting effects allow you to enhance the image whereas otherwise the image would lack shading and textures hence the difference between just a STL file and a rendered image.</p>
+	<br>
+	<p>An Industrial example of Blender would be using Blender software to develop live 3D models of animals for use in an interactive encyclopaedia (Khan, S. et al, 2019). </p>
+	<br>
+	<a><img class="img" src ="../Assets/images/photos/Fig8.jpg" alt = "Figure 11: A rendered gear made using Blender (Rendered by Mark Warren)"/></a>
+	<br>
+	<p>Figure 11 A rendered gear made using Blender (Rendered by Mark Warren)</p>
+	<br>
+	<br>
+	<a><img class="img" src ="../Assets/images/photos/Fig50.jpg" alt = "Figure 12: A Mesh edit of Mark's scanned head in blender (Screenshot taken by Mark Warren)"/></a>
+	<br>
+	<p>Figure 12 A Mesh edit of Mark's scanned head in blender (Screenshot taken by Mark Warren)</p>
+	<br>
+	<script id="embedded-stl-view" src="https://embed.github.com/view/3d/MWarrenAI/MWarrenAI.github.io/main/Assets/images/markeyes.stl"></script>
+	<br>
+	<p>I made a concept of my own head to illustrate the point to my team member that it was indeed possible to cut out the eyes using blender and make use of this same concept for his scanned head.
+	<br>
+	<script id="embedded-stl-view" src="https://embed.github.com/view/3d/MWarrenAI/MWarrenAI.github.io/main/Assets/images/marknoeyes.stl"></script>
+	<br>
 	</section>
-
     
 	<div id="Ender">
 	<footer>
