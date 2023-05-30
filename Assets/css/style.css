@@ -10,6 +10,14 @@ Body
 	background-color:#000;
 }
 
+table, th, td 
+{
+	border: 1px solid;
+	border-collapse: collapse;
+	width: 100px;
+	height: 50px;
+}
+
 #clipper
 {
 	float:left;
