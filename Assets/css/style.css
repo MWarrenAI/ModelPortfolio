@@ -12,6 +12,7 @@ Body
 
 table, th, td 
 {
+	padding: 15px;
 	border: 1px solid;
 	border-collapse: collapse;
 	width: 75%;
